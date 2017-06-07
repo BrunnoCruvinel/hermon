@@ -42,12 +42,12 @@
                 <div class="col-md-offset-1 col-md-8 hidden-sm hidden-xs">
                     <nav>
                         <ul>
-                            <li>A Fundação</li>
-                            <li>Matriz / Unidades</li>
-                            <li>Fotos</li>
-                            <li>Doar</li>
-                            <li>Blog
-                                <li>Contato</li>
+                            <li><a href="fundacao.php">A Fundação</a></li>
+                            <li><a href="unidades.php">Matriz / Unidades</a></li>
+                            <li><a href="fotos.php">Fotos</a></li>
+                            <li><a href="contribuir.php">Doar</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="contato.php">Contato</a></li>
                         </ul>
                     </nav>
                 </div>

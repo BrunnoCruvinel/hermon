@@ -18,7 +18,7 @@ p{font-size: 300; color: #535353; line-height: 32px; font-size: 16px;}
 
 /*Fix Marotão de Bootstrap*/
 .no-left{padding-left: 0;}
-.no-right{padding-left: 0;}
+.no-right{padding-right: 0;}
 
 /*Header*/
 header{position: fixed; top: 0; right: 0; left: 0; z-index: 100; margin: auto; width: 100%; background-color: #ffffff; -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.35); box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.35);}
@@ -44,7 +44,7 @@ main{margin-top: 56px;}
 .banner .slide{background-size: cover; padding-top: 64px; padding-bottom: 120px;}
 .banner .slide h2{color: #212121;text-align: right; font-weight: 300; font-size: 30px; position: relative; z-index: 10; line-height: 48px; margin: 0;}
 
-.banner .overlay{background: url('../img/overlay.png') repeat-y right center; height: 100%; width: 100%; top: 0; right: 0; z-index: 5;}
+.banner .overlay{background: url('../img/overlay.png') repeat-y left center; height: 100%; width: 100%; top: 0; right: 0; z-index: 5;}
 
 .bx-wrapper .bx-loading{position: absolute; top: 0; left: 0; z-index: 2000;min-height: 50px; width: 100%; height: 100%; background: url('../img/bx_loader.gif') center center no-repeat #fff;}
 
@@ -73,8 +73,20 @@ footer .social a{margin-left: 18px; display: inline-block;}
 footer .social a:first-child{margin-left: 0;}
 
 footer p.pin{margin-bottom: 18px; padding-left: 36px; background: url('../img/pin.png') no-repeat left center; height: 34px;}
-footer p.mail{margin-bottom: 18px; padding-left: 36px; background: url('../img/mail-ffoter.png') no-repeat left center; height: 34px;}
+footer p.mail{margin-bottom: 18px; padding-left: 36px; background: url('../img/mail-ffoter.png') no-repeat left 6px; height: 34px;}
 footer p.mail a{color: #ffffff;}
 footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/phone.png') no-repeat left center;}
 
 .codde{float: right; margin-bottom: 18px;}
+
+/*Internas*/
+
+/*Contribuir*/
+.contribuir{padding: 18px; -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.45); box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.45);}
+.contribuir h3{color: #ffffff; font-weight: 300; font-size: 20px; display: inline-block; margin: 0;}
+.contribuir h3 b{font-weight: 700; font-size: 22px;}
+.contribuir a{display: inline-block; float: right; background-color: #98C806; font-size: 16px; line-height: 16px; padding: 7px 14px 8px; color: #ffffff; font-weight: 700;}
+
+/*A barra de contribuir muda de cor a cada página*/
+.laranja .contribuir{background-color: #FFC964;}
+.laranjao .contribuir{background-color: #FF9326;}
