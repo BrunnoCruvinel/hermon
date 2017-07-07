@@ -1,5 +1,7 @@
 /*Desenvolvido com <3 na Codde*/
 
+.cm{color:#334070;}
+
 /* Geral */
 html{overflow-x: hidden;}
 body{overflow-x: hidden; color: #1f1f1f; font-family: 'Open Sans', sans-serif;}
@@ -78,8 +80,75 @@ footer p.mail a{color: #ffffff;}
 footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/phone.png') no-repeat left center;}
 
 .codde{float: right; margin-bottom: 18px;}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
 
 /*Internas*/
+.conteudo p{
+  color:#999;
+  line-height: 30px;
+}
+.video{
+  width: 130%;
+  margin-left: -25%;
+  margin-top: 45%;
+}
+.conteudo h2{
+  line-height: 100px;
+  letter-spacing: 3px;
+}
+.conteudo h3{
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* FUNDACAO */
+
+.bg{
+  background-color:#eee;
+
+}
+.fundacao{
+  /*margin-top: 12rem;*/
+}
+.fundacao h2, .fundacao h3{
+  letter-spacing: 2px;
+}
+.fundacao h2{
+  line-height: 80px;
+}
+.fundacao h3{
+  line-height: 75px;
+  font-size: 28px;
+}
+.fundacao p{
+  text-align: center;
+  color: #333F6C;
+}
+.fundacao span{
+  text-align: center;
+  letter-spacing: 1px;
+  color: #666;
+}
+.fundacao .col-md-4{
+  height: 150px;
+  text-align: center;
+}
+
+/*BOTOES*/
+.black{
+  padding:.5rem;
+  margin-top: 20px;
+  border: none;
+  min-width: 350px;
+  background-color: #222;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color:#fff;
+}
 
 /*Contribuir*/
 .contribuir{padding: 18px; -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.45); box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.45); margin-bottom: 36px;}

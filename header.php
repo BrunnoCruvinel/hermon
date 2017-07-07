@@ -36,10 +36,10 @@
     <header class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-1 col-sm-2 col-xs-4 logo relative">
+                <div class="col-md-1 col-sm-1 col-xs-4 logo relative">
                     <img class="absolute" src="img/logo.png">
                 </div>
-                <div class="col-md-offset-1 col-md-8 hidden-sm hidden-xs">
+                <div class="col-md-offset-1 col-sm-11 col-md-8 hidden-xs">
                     <nav>
                         <ul>
                             <li><a href="fundacao.php">A Fundação</a></li>
