@@ -2,7 +2,7 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-4 laranjao">
+        <div class="col-md-9 col-md-offset-3 azulEscuro">
           <?php include 'contribuir.php';?>
         </div>
 
@@ -54,7 +54,7 @@
               <br>
               <br>
               <a href="#">
-                <button type="button" class="black">Quero conhecer</button>
+                <button type="button" class="btn-black">Quero conhecer</button>
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@
             <br>
             <br>
             <a href="#">
-              <button type="button" class="black">Quero conhecer</button>
+              <button type="button" class="btn-black">Quero conhecer</button>
             </a>
           </div>
 
