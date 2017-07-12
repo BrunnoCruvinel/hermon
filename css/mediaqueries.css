@@ -8,7 +8,10 @@
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (max-width: 480px) {
+  .row{margin:0px;}
+  .contribuir{padding-top: 50px;}
+}
 
 
 /* Small Devices, Tablets */

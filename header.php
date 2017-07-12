@@ -37,8 +37,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-1 col-sm-1 col-xs-4 logo relative">
-                    <img class="absolute" src="img/logo.png">
+                    <img class="absolute" src="img/logo.png" style="max-width:">
                 </div>
+
                 <div class="col-md-offset-1 col-sm-11 col-md-8 hidden-xs">
                     <nav>
                         <ul>
@@ -59,7 +60,22 @@
                         <a href="#" target="_blank"><img src="img/youtube.png"></a>
                     </div>
                 </div>
-                <!--TODO: Menu Mobile-->
+                <div class="col-xs-12 hidden-lg hidden-md hidden-sm">
+                  <a href="javascript:void(0)" class="mais">
+                    <span class="glyphicon glyphicon-menu-hamburger"
+
+                    style="margin-top:3rem;margin-bottom:20px;float: right;font-size: 32px;" aria-hidden="true"></span></a>
+
+                    <ul id="menuMobile">
+                      <li><a href="fundacao.php">A Fundação</a></li>
+                      <li><a href="unidades.php">Matriz / Unidades</a></li>
+                      <li><a href="fotos.php">Fotos</a></li>
+                      <li><a href="contribuir.php">Doar</a></li>
+                      <li><a href="blog.php">Blog</a></li>
+                      <li><a href="contato.php">Contato</a></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
     </header>

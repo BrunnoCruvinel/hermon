@@ -1,12 +1,8 @@
 <?php include 'header.php';?>
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 col-md-offset-3 azul">
-          <?php include 'contribuir.php';?>
-        </div>
-      </div>
-    </div>
+
+          <?php $cor = "azul";require 'contribuir.php';?>
+
     <div class="container">
       <div class="row">
 
