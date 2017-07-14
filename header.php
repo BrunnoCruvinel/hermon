@@ -46,7 +46,7 @@
                             <li><a href="fundacao.php">A Fundação</a></li>
                             <li><a href="unidades.php">Matriz / Unidades</a></li>
                             <li><a href="fotos.php">Fotos</a></li>
-                            <li><a href="contribuir.php">Doar</a></li>
+                            <li><a href="doar.php">Doar</a></li>
                             <li><a href="blog.php">Blog</a></li>
                             <li><a href="contato.php">Contato</a></li>
                         </ul>
@@ -70,7 +70,7 @@
                       <li><a href="fundacao.php">A Fundação</a></li>
                       <li><a href="unidades.php">Matriz / Unidades</a></li>
                       <li><a href="fotos.php">Fotos</a></li>
-                      <li><a href="contribuir.php">Doar</a></li>
+                      <li><a href="doar.php">Doar</a></li>
                       <li><a href="blog.php">Blog</a></li>
                       <li><a href="contato.php">Contato</a></li>
                     </ul>
