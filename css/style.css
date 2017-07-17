@@ -4,6 +4,8 @@
 
 .cm{color:#334070;}
 .cb{color: #000;}
+.bb{background-color: #333;color:#fff;padding: 20px;
+letter-spacing: 2px;font-size: 15px;}
 .margin-top-1{
   margin-top: 1rem;
 }
@@ -84,7 +86,7 @@ main{margin-top: 56px;}
 .blog .first h4{font-size: 18px;}
 .blog .ler{text-align: right; color: #334070; font-weight: 700; font-size: 14px;}
 .blog .mais{padding-top: 36px; border-top: 1px solid #cccccc;}
-
+.disqus{margin-top: 50px;}
 .lidas{
   margin-top: 45px;
 }
