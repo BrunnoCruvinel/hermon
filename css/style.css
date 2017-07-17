@@ -165,7 +165,7 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
 /*UNIDADES*/
 .unidades:first-child{border: none;}
 .unidades{margin-bottom: 5rem;border-top: thin solid #ccc;padding-top: 5rem;}
-.unidades p, .fotos p, .fotoSidebar p, .doar p{color: #888;letter-spacing: 1px;font-size: 15px;}
+.unidades p, .fotos p, .fotoSidebar p, .doar p, .contato p{color: #888;letter-spacing: 1px;font-size: 15px;}
 .unidades a{color:#334070;font-size: 16px;letter-spacing: 1px;}
 
 /*FOTOS*/
@@ -198,6 +198,16 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
     line-height: 60px;
     letter-spacing: 2px;
   }
+
+/*CONTATO*/
+.contato h3{
+  font-weight: 300;
+}
+.contato input[type="text"]{
+  padding: 8px;
+  margin-top: 15px;
+}
+.border-bottom{border-bottom: thin solid #ccc;padding:15px;}
 
 /*BOTOES*/
 .btn-black{
@@ -245,3 +255,4 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
 .azulEscuro .contribuir{background-color:#334170;}
 .rosa .contribuir{background-color: #f06060;}
 .lilas .contribuir{background-color: #d61647;}
+.roxo .contribuir{background-color: #a40056;}
