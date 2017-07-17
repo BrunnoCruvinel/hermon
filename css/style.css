@@ -3,6 +3,7 @@
 /*UTIL*/
 
 .cm{color:#334070;}
+.cb{color: #000;}
 .margin-top-1{
   margin-top: 1rem;
 }
@@ -84,10 +85,35 @@ main{margin-top: 56px;}
 .blog .ler{text-align: right; color: #334070; font-weight: 700; font-size: 14px;}
 .blog .mais{padding-top: 36px; border-top: 1px solid #cccccc;}
 
+.lidas{
+  margin-top: 45px;
+}
+.lidas h3{
+  font-weight: 300;
+}
+.lidas h4{
+  border-bottom: thin solid #ccc;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.lidas h4:last-of-type{
+
+}
+ul{list-style: none;padding: 0px;}
+.categorias{margin-top: 60px;}
+.categorias ul li{
+  padding: 12px 0px;
+  border-bottom: thin solid #ccc;
+}
+.categorias ul li a{
+  color: #222;font-size: 18px;
+}
+
 /*Cadastre-se*/
-.cadastre{background-color: #33406D; padding-top: 36px; padding-bottom: 36px; margin-top: 64px;}
-.cadastre h3{font-size: 20px; color: #ffffff; margin: 0;}
-.cadastre h3 b{font-weight: 700; font-size: 25px;}
+.cadastre{background-color: #33406D; padding: 15px;
+  padding-bottom: 36px; margin-top: 64px;}
+.cadastre h3{font-size: 17px !important; color: #ffffff; margin: 0;font-weight: 300;}
+.cadastre h3 b{font-weight: 700; font-size: 22px;}
 .cadastre input[type=email]{display: block; border: 1px solid #cccccc; padding: 8px 12px; font-size: 16px; font-weight: 300; width: 100%;}
 .cadastre input[type=submit]{display: block; background-color: #222222; padding: 8px 12px; font-size: 22px; font-weight: 700; text-align: center; border: 0; width: 100%; color: #ffffff;}
 
@@ -165,7 +191,7 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
 /*UNIDADES*/
 .unidades:first-child{border: none;}
 .unidades{margin-bottom: 5rem;border-top: thin solid #ccc;padding-top: 5rem;}
-.unidades p, .fotos p, .fotoSidebar p, .doar p, .contato p{color: #888;letter-spacing: 1px;font-size: 15px;}
+.unidades p, .fotos p, .fotoSidebar p, .doar p, .contato p, .blog p{color: #888;letter-spacing: 1px;font-size: 15px;}
 .unidades a{color:#334070;font-size: 16px;letter-spacing: 1px;}
 
 /*FOTOS*/
@@ -199,6 +225,15 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
     letter-spacing: 2px;
   }
 
+/*BLOG*/
+.blog h3{
+  font-size: 21px;
+letter-spacing: 2px;
+line-height: 35px;
+}
+.blog img{width: 100%;}
+.blog .noticia{margin-bottom: 35px;}
+
 /*CONTATO*/
 .contato h3{
   font-weight: 300;
@@ -208,6 +243,23 @@ footer p.tel{margin-bottom: 18px; padding-left: 36px;background: url('../img/pho
   margin-top: 15px;
 }
 .border-bottom{border-bottom: thin solid #ccc;padding:15px;}
+
+
+/*SIDEBAR*/
+#pesquisar input[type='text']{
+  border: none;
+  border-bottom: thin solid #ccc;
+  width: 98%;
+  padding: 10px;
+}
+#pesquisar button{
+  background-color: #fff;
+  border:none;
+  float: right;
+  margin-left:-30px;
+  font-size: 22px;
+  font-weight: 300;
+}
 
 /*BOTOES*/
 .btn-black{
