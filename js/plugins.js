@@ -5,4 +5,7 @@ $(document).ready(function () {
   $('.mais').on('click', function(){
     $('#menuMobile').slideToggle();
   });
+  $('#anexar').on('click', function(){
+    $('#anexo').trigger('click');
+  });
 });
