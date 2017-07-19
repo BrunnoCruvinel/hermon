@@ -9,7 +9,7 @@
         <h2>Fotos</h2>
         <br>
 
-        <div class="col-md-8 nopadding">
+        <div class="col-md-8 nopadding lightbox">
 
 
           <!-- FOTOS -->

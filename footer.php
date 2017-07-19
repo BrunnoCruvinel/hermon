@@ -57,8 +57,14 @@
         $(this).ekkoLightbox();
     });
 </script>
+
 <!--Plugins-->
 <script src="js/plugins.js"></script>
+
+<script type="text/javascript" src="http://cdn.frontsplit.com/lightbox.js"></script>
+<script type="text/javascript">
+  lightbox('.lightbox');
+</script>
 </body>
 
 </html>
